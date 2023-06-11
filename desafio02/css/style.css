@@ -59,8 +59,14 @@ table, th, td{
 
 
 #txt-blog ul{
-    width: 50%;
+    list-style: square inside url("sqpurple.gif");
+    padding: 20px;
 }
+
+#txt-blog ul li{
+    margin: 5px;
+}
+
 
 #txt-cadastro{
     display: flex;
